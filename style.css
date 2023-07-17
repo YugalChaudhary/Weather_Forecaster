@@ -1,0 +1,85 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+img {
+    margin-left: 130px;
+}
+
+h2 {
+    font-size: xx-large;
+    color: honeydew;
+    margin-left: 185px;
+    margin-bottom: 20px;
+}
+
+hr{
+    color: honeydew;
+    height: 0px;
+}
+
+#city {
+    margin-left: 98px;
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: larger;
+    border-color: black;
+}
+
+#btn {
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    width: 110px;
+    margin-left: 195px;
+    font-size: larger;
+    border-radius: 25px;
+}
+
+#btn:hover {
+    font-weight: 600;
+}
+
+.containerSmall {
+    display: grid;
+    grid-template-columns: 1.8fr 3fr;
+}
+
+.left {
+    border-right: 1px solid white;
+}
+
+
+#wind,#humidity,#temp {
+    color: white;
+    margin-top: 50px;
+    font-size: xx-large;
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: paleturquoise;
+}
+
+#tempInside {
+    color: rgb(234, 255, 0);
+}
+
+#humInside {
+    color: rgb(234, 255, 0);
+}
+
+#windInside {
+    color: rgb(234, 255, 0);
+}
